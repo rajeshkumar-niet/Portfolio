@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajesh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Rajesh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, My name is <span class="purple"> Rajesh Kumar </span>
+                <div>
+                    and I am a passionate
+                    <!-- Element to contain animated typing -->
+                </div>
+                <span id="element" class="purple"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        Download Resume
+                    </button>
+                    <button class="btn">
+                        Visit Github
+                    </button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="https://ouch-cdn2.icons8.com/_l7NY38cfzKzKqnSqelhi-M-l4FvLpuzo0DyOSZAW70/rs:fit:368:368/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvMTk1/Lzg2MjEwMzNkLWFl/ZWQtNGMzYS05MmVk/LThhNTJhYTUzYTlm/NC5zdmc.png"
+                    alt="Developer img">
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="text-gray">When, Where I have studied</span>
+            <h1>
+                My Education
+            </h1>
+            <div class="box">
+                <div class="verticle">
+                    <img class="img-top" src="/IMG/Jawahar_Navodaya_Vidyalaya_logo.png"
+                        alt="Jawahar_Navodaya_Vidyalaya_logo">
+                    <div class="verticle-title">High School </div>
+                    <div class="verticle-description">Jawahar Navodaya Vidyalaya </div>
+                    <div class="verticle-description"> 2016-2018 </div>
+                    <div class="verticle-description"> Science 86%</div>
+
+
+                </div>
+                <div class="verticle">
+                    <img class="img-top" src="/IMG/Jawahar_Navodaya_Vidyalaya_logo.png"
+                        alt="Jawahar_Navodaya_Vidyalaya_logo">
+                    <div class="verticle-title">Intermediate</div>
+                    <div class="verticle-description">Jawahar Navodaya Vidyalaya </div>
+                    <div class="verticle-description">2018-2020 </div>
+                    <div class="verticle-description"> PCM 88%</div>
+                </div>
+                <div class="verticle">
+                    <img class="img-top" src="/IMG/niet-logo.svg" alt="Jawahar_Navodaya_Vidyalaya_logo">
+                    <div class="verticle-title">Undergraduate </div>
+                    <div class="verticle-description">NIET, Greater Noida</div>
+                    <div class="verticle-description">2021-2025 </div>
+                    <div class="verticle-description">CSE (AIML) </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Rajesh Website</h3>
+                </div>
+                <div class="footer-second"></div>
+                <div class="footer-third"></div>
+                <div class="footer-fouth"></div>
+            </div>
+        </footer>
+    </div>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'ML Expert.', 'Python Coder.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>

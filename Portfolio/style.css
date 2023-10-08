@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 36);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(40, 40, 108);
+
+}
+
+nav .left {
+    font-size: 1.6rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li :hover {
+    color: rgb(80, 80, 227);
+    font-size: 1.02rem;
+}
+
+.firstsection {
+    display: flex;
+    margin: 25px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 35%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    padding-top: 70px;
+}
+
+.leftsection .buttons{
+    margin: 31px 11px;
+}
+.leftsection .btn{
+    padding: 15px;
+    background: #1518b9;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 2px solid #b8606b;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    font-weight: 900;
+}
+.leftsection .btn:hover {
+    background: #ff6b81; /* Pink background color */
+    font-size: 1.2rem; /* Increase font size by 10% */
+}
+.rightsection img {
+    width: 98%;
+    margin: 15px 4px;
+}
+
+.purple {
+    color: rgba(181, 117, 240, 0.611);
+}
+
+.text-gray {
+    color: gray;
+    font-size: 0.85rem;
+}
+
+main hr {
+    border: 0;
+    background: #5d58e3;
+    height: 1.2px;
+    margin: 50px 90px;
+}
+
+.second-section {
+    max-width: 84vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.second-section h1 {
+    font-size: 2rem;
+}
+
+.second-section .box {
+    background: white;
+    height: 2px;
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-section .verticle {
+    height: 80px;
+    background: white;
+    width: 2px;
+}
+
+.img-top {
+    height: 50px;
+    position: relative;
+    top: -62px;
+    left: -22px;
+    background-color: #b5eebb;
+    padding: 4px;
+}
+
+.verticle-title {
+    position: relative;
+    top: 28px;
+    width: 110px;
+    left: -33px;
+}
+
+.verticle-description {
+    position: relative;
+    top: 32px;
+    width: 300px;
+    left: -33px;
+    color: gray;
+    font-size: 0.85rem;
+}
+
+footer{
+    height: 40vh;
+    background-color: #272731;
+    width: 98.54vw;
+    position: initial;
+}
+.footer{
+    display: flex;
+    margin: 41px 51px;
+
+}
